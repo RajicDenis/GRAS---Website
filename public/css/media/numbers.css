@@ -1,0 +1,22 @@
+@media screen and (max-width: 414px) {
+	/* Numbers */
+	.numbers {
+		height: auto;
+	}
+	.n-bottom {
+		flex-wrap: wrap;
+    	height: auto;
+	}
+	.n1:nth-child(4) {
+		display: none;
+	}
+	.h170 {
+		height: 120px;
+	}
+}
+
+@media screen and (max-width: 240px) {
+    .n-title {
+    	font-size: 17px;
+    }
+}

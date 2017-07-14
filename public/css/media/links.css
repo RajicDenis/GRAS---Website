@@ -1,0 +1,22 @@
+@media screen and (max-width: 800px) {
+	.lg2 {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	.logo-lnk {
+		width: 150px;
+		height: 100px;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 240px) {
+    .line {
+    	display: none;
+    }
+    .links {
+    	flex-direction: column;
+    }
+}

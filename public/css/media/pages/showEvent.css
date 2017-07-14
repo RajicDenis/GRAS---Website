@@ -1,0 +1,83 @@
+@media screen and (max-width: 1024px) {
+	.e-image {
+		width: 500px !important;
+		bottom: 30px !important;
+	}
+	.event-wrap {
+		width: 80%;
+	}
+	.carousel {
+		width: 80%;
+	}
+	.back-btn {
+		right: 90px;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	.e-image {
+		width: 450px !important;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.event-wrap {
+		width: 90%;
+	}
+	.e-image {
+		width: 400px !important;
+		bottom: 80px !important;
+	}
+	.e-title {
+		font-size: 25px !important;
+	}
+	.carousel-inner > .item {
+		height: 250px;
+	}
+	.back-btn {
+		right: 30px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.carousel-inner > .item {
+		height: 200px;
+	}
+	.back-btn {
+		right: 20px;
+	}
+}
+
+@media all and (max-width: 414px) {
+	.e-title {
+		font-size: 20px !important;
+	}
+	.e-image {
+		width: 300px !important;
+	    height: 230px !important;
+	}
+	.bottom:before, .bottom:after {
+		content: none;
+	}
+	.textbox {
+		width: 100%;
+	    font-size: 12px;
+	    padding-top: 0;
+	    margin-top: 0;
+	    padding: 15px;
+	}
+}
+
+@media all and (max-width: 360px) {
+	.e-image {
+		width: 230px !important;
+	    height: 200px !important;
+	}
+	.carousel-inner > .item {
+		height: 150px;
+	}
+	.back-btn {
+		right: 10px;
+	}
+
+}

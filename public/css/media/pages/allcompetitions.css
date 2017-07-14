@@ -1,0 +1,33 @@
+@media screen and (max-width: 800px) {
+	.st-txt {
+		font-size: 40px !important;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#yadcf-filter-wrapper--comp_table-7 {
+	    top: -130px;
+    	right: 185px;
+    }
+    .st-txt {
+		font-size: 30px !important;
+	}
+}
+
+@media screen and (max-width: 414px) {
+	#yadcf-filter-wrapper--comp_table-7 {
+    	right: 115px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+	#yadcf-filter-wrapper--comp_table-7 {
+    	right: 90px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+	#yadcf-filter-wrapper--comp_table-7 {
+    	right: 75px;
+    }
+}

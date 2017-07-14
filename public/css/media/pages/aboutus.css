@@ -1,0 +1,33 @@
+@media screen and (max-width: 1024px) {
+	.st-txt {
+		margin-top: 10px;
+		width: 300px !important;
+	}
+	.location-img {
+		width: 70% !important;
+	}
+	.about-txt {
+		width: 70% !important;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.st-txt {
+		margin-top: 10px;
+		width: 240px !important;
+	}
+}
+
+@media screen and (max-width: 600px) {
+    .location-img {
+        width: 90% !important;
+        height: 250px;
+    }
+    .about-txt {
+        width: 90% !important;
+        padding: 30px;
+    }
+    p {
+        font-size: 14px;
+    }
+}

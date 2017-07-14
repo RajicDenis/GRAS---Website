@@ -1,0 +1,19 @@
+@media screen and (max-width: 960px) {
+	.st-txt {
+		margin-top: 10px;
+		width: 300px !important;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.db-title { 
+		width: auto;
+		padding: 0 20px;
+	}
+	.db-doc {
+		flex-wrap: wrap;
+	}
+	.cr2, .cr3, .cr4, .cr5 {
+		margin-bottom: 15px;
+	}
+}

@@ -1,0 +1,61 @@
+.site-title, .site-box {
+	background: #182C4F;
+}
+.st-txt {
+	width: 500px !important;
+}
+.hexa-box {
+	width: 50%;
+}
+#hexGrid {
+	overflow: visible;
+}
+.hexIn {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-shadow: 0 0 5px black;
+	        box-shadow: 0 0 5px black;
+}
+.hex-nbr {
+	font-family: 'Amaranth', sans-serif;
+	font-size: 45px;
+	color: white;
+	-webkit-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out; 
+}
+.hexIn > p, .hexIn > h1 {
+	color: white;
+	font-family: 'Amaranth', sans-serif;
+	font-size: 1.2em;
+}
+.hex h1, .hex p {
+	background: rgba(8,8,8,0.5);
+}
+.red {
+    background: #ff003f;
+}
+.yellow {
+    background: #F1C500;
+}     
+.blue {
+    background: #3575D3; 
+}
+.green {
+    background: #80ff00;
+}
+.lightblue {
+	background: #18BD9B;
+}
+.purple {
+	background: #6E1BB5;
+}
+.pink {
+	background: #FF0084;
+}

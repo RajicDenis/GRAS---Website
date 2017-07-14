@@ -1,0 +1,26 @@
+@media screen and (max-width: 1024px) {
+	.googlemap {
+		width:  70% !important;
+	}
+	.contact-box {
+		width:  70% !important;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.googlemap {
+		width: 90% !important;
+		height: 250px;
+	}
+	.contact-box {
+		flex-direction: column-reverse;
+		width: 90% !important;
+	}
+	.c-form, .c-pic {
+		width: 100%;
+	}
+	.c-pic {
+	    margin-bottom: 30px;
+	    height: 230px;
+	}
+}
